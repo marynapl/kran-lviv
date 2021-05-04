@@ -1,32 +1,23 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <header>
+    <div className="header-wrapper">
+      <div className="row align-justify align-middle header-main">
+        {/* Logo */}
+        {/* <div className="columns shrink">
+          <Link to="/" className="logo">
+            {siteTitle}
+          </Link>
+        </div> */}
+        <div className="columns text-center large-text-right">
+          <span>
+            <strong>Працюємо без вихідних</strong>.
+            Аварійна прочистка каналізації <strong>24/7</strong>
+          </span>
+        </div>
+      </div>
     </div>
   </header>
 )
