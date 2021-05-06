@@ -11,9 +11,14 @@ const Nav = () => (
           <li><Link to="/"><strong>Головна</strong></Link></li>
           <li><Link to="/call-plumber">Виклик сантехніка</Link></li>
           <li><Link to="/drain-cleaning">Прочистка каналізації</Link></li>
+          <li><Link to="/drain-cleaning-with-cable">Прочистка каналізації сантехнічним тросом</Link></li>
           <li><Link to="/hydrodynamic-drain-cleaning">Гідродинамічна прочистка каналізації</Link></li>
           <li><Link to="/plastic-pipes-installation">Монтаж пластикових труб</Link></li>
           <li><Link to="/plastic-pipes-soldering">Пайка пластикових труб</Link></li>
+          <li><Link to="/seal-the-thread">Чим і як ущільнювати різьбу</Link></li>
+          <li><Link to="/boiler-repair">Ремонт котлів</Link></li>
+          <li><Link to="/gas-boiler-installation">Встановлення газового котла</Link></li>
+          <li><Link to="/solid-fuel-boiler-installation">Встановлення твердопаливного котла</Link></li>
         </ul>
       </div>
     </div>

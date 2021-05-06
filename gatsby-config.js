@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Kran.lviv.ua`,
+    title: `Kran.lviv`,
     titleTemplate: "%s · Kran.lviv.ua",
     description: `Швидко, якісно і надійно виконаємо сантехнічні роботи у Львові. Аварійна прочистка каналізації.`,
     author: `@kran.lviv.ua`,

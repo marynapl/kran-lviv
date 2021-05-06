@@ -15,7 +15,7 @@ const CleanPage = () => (
     <section className="banner-container">
       <div className="row">
         <div className="columns small-12">
-          <h1>Гідродинамічна прочистка&nbsp;каналізації</h1>
+          <h1>Гідродинамічна прочистка каналізації</h1>
           <p className="lead"><strong>Виконується гідродинамічна прочистка каналізації у Львові. Телефонуйте!</strong>
           </p>
           <p>
