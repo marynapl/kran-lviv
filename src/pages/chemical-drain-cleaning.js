@@ -7,7 +7,7 @@ import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
-const CleanPage = () => (
+const ChemicalDrainCleaningPage = () => (
   <Layout>
     <SEO title="Чистка каналізаційних труб хімічним способом"
       description="Чистка каналізаційних труб хімічним способом – усі методи прочищення каналізації!" />
@@ -105,4 +105,4 @@ const CleanPage = () => (
   </Layout>
 )
 
-export default CleanPage
+export default ChemicalDrainCleaningPage

@@ -20,12 +20,15 @@ const Nav = () => (
           <li><Link to="/drain-cleaning-private-house">Прочистка каналізації приватного будинку</Link></li>
           <li><Link to="/hydrodynamic-drain-cleaning">Гідродинамічна прочистка каналізації</Link></li>
           <li><Link to="/installing-toilet">Встановлення унітаза</Link></li>
+          <li><Link to="/bidet-toilet">Унітаз з функцією біде</Link></li>
+          <li><Link to="/quality-pipe-cleaning">Якісна прочистка труб</Link></li>
           <li><Link to="/plastic-pipes-installation">Монтаж пластикових труб</Link></li>
           <li><Link to="/plastic-pipes-soldering">Пайка пластикових труб</Link></li>
           <li><Link to="/seal-the-thread">Чим і як ущільнювати різьбу</Link></li>
           <li><Link to="/boiler-repair">Ремонт котлів</Link></li>
           <li><Link to="/gas-boiler-installation">Встановлення газового котла</Link></li>
           <li><Link to="/solid-fuel-boiler-installation">Встановлення твердопаливного котла</Link></li>
+          <li><Link to="/waterproofing">Гідроізоляційні роботи</Link></li>
         </ul>
       </div>
     </div>

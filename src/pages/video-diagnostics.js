@@ -7,7 +7,7 @@ import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
-const CleanPage = () => (
+const DiagnosticsPage = () => (
   <Layout>
     <SEO title="Відеодіагностика каналізаційних труб"
       description="Виконується відеодіагностика каналізаційних труб у Львові та інших населених пунктах області. Телефонуйте (098)-179-83-93!" />
@@ -86,4 +86,4 @@ const CleanPage = () => (
   </Layout>
 )
 
-export default CleanPage
+export default DiagnosticsPage

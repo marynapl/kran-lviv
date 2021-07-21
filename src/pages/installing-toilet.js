@@ -7,7 +7,7 @@ import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
-const CleanPage = () => (
+const InstallingToiletPage = () => (
   <Layout>
     <SEO title="Встановлення унітаза"
       description="Встановлення унітаза у Львові у 5 етапів" />
@@ -72,4 +72,4 @@ const CleanPage = () => (
   </Layout>
 )
 
-export default CleanPage
+export default InstallingToiletPage

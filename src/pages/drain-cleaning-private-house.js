@@ -7,7 +7,7 @@ import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
-const CleanPage = () => (
+const DrainCleaningPrivateHousePage = () => (
   <Layout>
     <SEO title="Прочистка каналізації приватного будинку"
       description="ППрочистка каналізації приватного будинку − телефонуйте!" />
@@ -77,4 +77,4 @@ const CleanPage = () => (
   </Layout>
 )
 
-export default CleanPage
+export default DrainCleaningPrivateHousePage

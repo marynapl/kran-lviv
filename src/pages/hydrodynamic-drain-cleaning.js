@@ -7,7 +7,7 @@ import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
-const CleanPage = () => (
+const HydrodynamicDrainCleaningPage = () => (
   <Layout>
     <SEO title="Гідродинамічна прочистка каналізації у Львові"
       description="Виконується гідродинамічна прочистка каналізації у Львові. Цілодобово. Телефонуйте!" />
@@ -116,4 +116,4 @@ const CleanPage = () => (
   </Layout>
 )
 
-export default CleanPage
+export default HydrodynamicDrainCleaningPage

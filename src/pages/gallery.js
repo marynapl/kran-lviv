@@ -110,7 +110,7 @@ const photos = [
   }
 ];
 
-const CleanPage = () => (
+const GallerPage = () => (
   <Layout>
     <SEO title="Прочистка каналізації"
       description="Пропонуємо механічний, вакуумний та гідродинамічний 
@@ -144,4 +144,4 @@ const CleanPage = () => (
   </Layout>
 )
 
-export default CleanPage
+export default GallerPage
