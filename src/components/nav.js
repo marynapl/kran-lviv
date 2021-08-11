@@ -12,13 +12,16 @@ const Nav = () => (
           <li><Link to="/call-plumber">Виклик сантехніка</Link></li>
           <li><Link to="/clogged-drain">Забита каналізація</Link></li>
           <li><Link to="/drain-cleaning">Прочистка каналізації</Link></li>
+          <li><Link to="/video-inspection">Відеоінспекція трубопроводів</Link></li>
           <li><Link to="/video-diagnostics">Відеодіагностика каналізаційних труб</Link></li>
           <li><Link to="/drain-cleaning-with-cable">Прочистка каналізації сантехнічним тросом</Link></li>
           <li><Link to="/mechanical-drain-cleaning">Механічна прочистка каналізації</Link></li>
+          <li><Link to="/thermal-drain-cleaning">Термічне очищення каналізації</Link></li>
           <li><Link to="/chemical-drain-cleaning">Чистка каналізаційних труб хімічним способом</Link></li>
           <li><Link to="/pneumatic-drain-cleaning">Пневматичне прочищення каналізації</Link></li>
           <li><Link to="/industrial-drain-cleaning">Прочистка промислової каналізації</Link></li>
           <li><Link to="/drain-cleaning-private-house">Прочистка каналізації приватного будинку</Link></li>
+          <li><Link to="/drain-flushing">Промивання каналізаційних мереж</Link></li>
           <li><Link to="/hydrodynamic-drain-cleaning">Гідродинамічна прочистка каналізації</Link></li>
           <li><Link to="/installing-toilet">Встановлення унітаза</Link></li>
           <li><Link to="/bidet-toilet">Унітаз з функцією біде</Link></li>
