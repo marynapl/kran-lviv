@@ -10,6 +10,7 @@ const Nav = () => (
         <ul className="menu vertical">
           <li><Link to="/"><strong>Головна</strong></Link></li>
           <li><Link to="/call-plumber">Виклик сантехніка</Link></li>
+          <li><Link to="/drain-cleaning-services">Послуги сантехніка з чистки каналізації</Link></li>
           <li><Link to="/clogged-drain">Забита каналізація</Link></li>
           <li><Link to="/drain-cleaning">Прочистка каналізації</Link></li>
           <li><Link to="/video-inspection">Відеоінспекція трубопроводів</Link></li>
@@ -25,6 +26,7 @@ const Nav = () => (
           <li><Link to="/hydrodynamic-drain-cleaning">Гідродинамічна прочистка каналізації</Link></li>
           <li><Link to="/installing-toilet">Встановлення унітаза</Link></li>
           <li><Link to="/bidet-toilet">Унітаз з функцією біде</Link></li>
+          <li><Link to="/bidet-seat">Сидіння-біде для унітаза</Link></li>
           <li><Link to="/shower-panels-installation">Встановити душові панелі</Link></li>
           <li><Link to="/quality-pipe-cleaning">Якісна прочистка труб</Link></li>
           <li><Link to="/plastic-pipes-installation">Монтаж пластикових труб</Link></li>
