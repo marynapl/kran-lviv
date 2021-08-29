@@ -28,14 +28,19 @@ const Nav = () => (
           <li><Link to="/bidet-toilet">Унітаз з функцією біде</Link></li>
           <li><Link to="/bidet-seat">Сидіння-біде для унітаза</Link></li>
           <li><Link to="/shower-panels-installation">Встановити душові панелі</Link></li>
+          <li><Link to="/sink-installation">Установка раковини</Link></li>
+          <li><Link to="/mixer-installation">Встановлення та заміна змішувача</Link></li>
           <li><Link to="/quality-pipe-cleaning">Якісна прочистка труб</Link></li>
           <li><Link to="/plastic-pipes-installation">Монтаж пластикових труб</Link></li>
           <li><Link to="/plastic-pipes-soldering">Пайка пластикових труб</Link></li>
           <li><Link to="/seal-the-thread">Чим і як ущільнювати різьбу</Link></li>
+          <li><Link to="/water-meter-installation">Установка лічильників води</Link></li>
           <li><Link to="/boiler-repair">Ремонт котлів</Link></li>
           <li><Link to="/gas-boiler-installation">Встановлення газового котла</Link></li>
           <li><Link to="/solid-fuel-boiler-installation">Встановлення твердопаливного котла</Link></li>
+          <li><Link to="/radiator-replacement">Заміна батарей і радіаторів опалення</Link></li>
           <li><Link to="/waterproofing">Гідроізоляційні роботи</Link></li>
+          <li><Link to="/balcony-waterproofing">Гідроізоляція балкону</Link></li>
         </ul>
       </div>
     </div>
