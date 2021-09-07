@@ -10,9 +10,11 @@ const Nav = () => (
         <ul className="menu vertical">
           <li><Link to="/"><strong>Головна</strong></Link></li>
           <li><Link to="/call-plumber">Виклик сантехніка</Link></li>
+          <li><Link to="/emergency-plumbing-service">Аварійна служба сантехніки</Link></li>
           <li><Link to="/drain-cleaning-services">Послуги сантехніка з чистки каналізації</Link></li>
           <li><Link to="/clogged-drain">Забита каналізація</Link></li>
           <li><Link to="/drain-cleaning">Прочистка каналізації</Link></li>
+          <li><Link to="/drain-cleaning-difficult-debris">Прочистка каналізації від найскладніших засмічень</Link></li>
           <li><Link to="/video-inspection">Відеоінспекція трубопроводів</Link></li>
           <li><Link to="/video-diagnostics">Відеодіагностика каналізаційних труб</Link></li>
           <li><Link to="/drain-cleaning-with-cable">Прочистка каналізації сантехнічним тросом</Link></li>
