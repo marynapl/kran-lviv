@@ -32,6 +32,7 @@ const Nav = () => (
           <li><Link to="/bidet-toilet">Унітаз з функцією біде</Link></li>
           <li><Link to="/urinal-installation">Встановити пісуар</Link></li>
           <li><Link to="/bidet-seat">Сидіння-біде для унітаза</Link></li>
+          <li><Link to="/baths">Ванни: чавунні, сталеві, акрилові</Link></li>
           <li><Link to="/bathtub-installation">Монтаж ванн</Link></li>
           <li><Link to="/shower-panels-installation">Встановити душові панелі</Link></li>
           <li><Link to="/shower-cabin-installation">Встановлення душової кабіни</Link></li>
@@ -45,6 +46,7 @@ const Nav = () => (
           <li><Link to="/water-meter-installation">Установка лічильників води</Link></li>
           <li><Link to="/water-filter-installation">Установка фільтра для води</Link></li>
           <li><Link to="/boiler-repair">Ремонт котлів</Link></li>
+          <li><Link to="/wall-monted-water-heating">Монтаж теплих стін</Link></li>
           <li><Link to="/heating-installation-private-house">Монтаж опалення приватного будинку</Link></li>
           <li><Link to="/heating-installation-apartment">Монтаж опалення квартири</Link></li>
           <li><Link to="/gas-boiler-installation">Встановлення газового котла</Link></li>

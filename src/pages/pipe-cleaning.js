@@ -154,7 +154,7 @@ const PipeCleaningPage = () => (
             <li><Link to="/drain-cleaning">прочистка каналізації Львів</Link>;</li>
             <li><Link to="/video-diagnostics">відеоінспекція трубопроводів</Link>.</li>
           </ul>
-        </div>
+        </div> 
         <div className="columns small-12 medium-4 large-4">
           <Nav></Nav>
         </div>
