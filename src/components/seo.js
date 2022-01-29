@@ -71,7 +71,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any"></link>
+      <link rel="apple-touch-icon" href="favicon.png"></link>
+    </Helmet>
   )
 }
 

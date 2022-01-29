@@ -34,7 +34,9 @@ const CleanPage = () => (
     <Content>
       <div className="row align-center">
         <div className="columns small-12 medium-11 large-10">
-          <p className="text-center"></p>
+          <p className="text-center">
+            <Link to="/drain-cleaning">послуги з прочистки каналізації</Link>
+          </p>
           <hr className="margin-bottom-2x margin-top-2x" />
         </div>
       </div>

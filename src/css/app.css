@@ -39,7 +39,7 @@ footer a {
 }
 
 .header-wrapper {
-  padding: 1rem 0;
+  padding: .5rem 0;
 }
 
 .banner-container {
@@ -74,6 +74,18 @@ footer a {
 @media  (max-width: 24em) {
   .banner-container .lead {
     display: none;
+  }
+}
+
+.logo {
+  display: inline-block;
+  margin-top: .4rem;
+  margin-bottom: .5rem;
+}
+
+@media (min-width: 40em) {
+  .logo {
+    margin-bottom: 0;
   }
 }
 
