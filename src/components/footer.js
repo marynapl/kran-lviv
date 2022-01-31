@@ -4,7 +4,7 @@ const Footer = () => (
   <footer>
     <div className="row align-center-middle text-center">
       <div className="columns small-12 medium-6 medium-text-left">
-        <p>© {new Date().getFullYear()} Kran · Ваш сантехнік у Львові</p>
+        <p>© {new Date().getFullYear()} Kran.lviv · Ваш сантехнік у Львові</p>
       </div>
       <div className="columns small-12 medium-6 medium-text-right">
         <p>
