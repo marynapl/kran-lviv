@@ -4,6 +4,7 @@ module.exports = {
     titleTemplate: "%s · Kran.lviv.ua",
     description: `Швидко, якісно і надійно виконаємо сантехнічні роботи у Львові. Аварійна прочистка каналізації.`,
     author: `@kran.lviv.ua`,
+    siteUrl: `https://www.kran.lviv.ua`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -43,7 +44,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          'UA-175231750-1', // Google Analytics / GA
+          "UA-175231750-1", // Google Analytics / GA
         ],
         pluginConfig: {
           // Puts tracking script in the head instead of the body
@@ -53,5 +54,6 @@ module.exports = {
         },
       },
     },
+    //`gatsby-plugin-styled-components`,
   ],
 }

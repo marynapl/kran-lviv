@@ -2,14 +2,14 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
 const BathsPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="Ванни: чавунні, сталеві, акрилові"
       description="Встановлення ванни у Львові – звертайтеся у
       Kran.lviv.ua."
@@ -148,7 +148,7 @@ const BathsPage = () => (
             дерев’яні ванни.
           </p>
           <p>
-            Також треба знати. Встановлення ванни у Львові – звертайтеся у{" "} 
+            Також треба знати. Встановлення ванни у Львові – звертайтеся у{" "}
             <Link to="/">Kran.lviv.ua</Link>. Гарантуємо якість, доступні ціни,
             швидкість. Виконуємо усі види сантехнічних робіт.
           </p>

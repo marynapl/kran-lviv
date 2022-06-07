@@ -2,14 +2,14 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
 const PipeCleaningPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="Прочистка труб Львів"
       description="Прочистка труб у Львові здійснюється щоденно. Звертайтеся!"
     />
@@ -151,10 +151,14 @@ const PipeCleaningPage = () => (
           </p>
           <p>Детальніше:</p>
           <ul>
-            <li><Link to="/drain-cleaning">прочистка каналізації Львів</Link>;</li>
-            <li><Link to="/video-diagnostics">відеоінспекція трубопроводів</Link>.</li>
+            <li>
+              <Link to="/drain-cleaning">прочистка каналізації Львів</Link>;
+            </li>
+            <li>
+              <Link to="/video-diagnostics">відеоінспекція трубопроводів</Link>.
+            </li>
           </ul>
-        </div> 
+        </div>
         <div className="columns small-12 medium-4 large-4">
           <Nav></Nav>
         </div>

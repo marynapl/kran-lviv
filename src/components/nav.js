@@ -108,6 +108,9 @@ const Nav = () => (
             <Link to="/baths">Ванни: чавунні, сталеві, акрилові</Link>
           </li>
           <li>
+            <Link to="/baths-quarry-wooden">Ванни: кварилові та дерев’яні</Link>
+          </li>
+          <li>
             <Link to="/bathtub-installation">Монтаж ванн</Link>
           </li>
           <li>

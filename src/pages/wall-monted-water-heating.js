@@ -2,14 +2,14 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
 const WallMontedWaterHeatingPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="Монтаж теплих стін"
       description="Монтаж теплих стін: якість, швидкість"
     />

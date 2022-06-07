@@ -2,14 +2,14 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Content from "../components/content"
 import Nav from "../components/nav"
 import Call from "../components/call"
 
 const PlumbingLvivPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="Сантехнічні роботи у Львові"
       description="Сантехнічні роботи у Львові – якісно та швидко"
     />
