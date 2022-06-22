@@ -1,17 +1,18 @@
 html,
 body {
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
 }
 
 svg {
-	display: inline-block;
-	fill: currentColor;
-	max-width: 100%;
-	position: relative;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	vertical-align: middle;
+  display: inline-block;
+  fill: currentColor;
+  max-width: 100%;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  vertical-align: middle;
 }
 
 hr {
@@ -19,11 +20,26 @@ hr {
 }
 
 @media print, screen and (min-width: 40em) {
-  h2, .h2 { font-size: 1.602rem; }
-  h3, .h3 { font-size: 1.424rem; }
-  h4, .h4 { font-size: 1.266rem; }
-  h5, .h5 { font-size: 1.125rem; }
-  h6, .h6 { font-size: 1rem; }
+  h2,
+  .h2 {
+    font-size: 1.602rem;
+  }
+  h3,
+  .h3 {
+    font-size: 1.424rem;
+  }
+  h4,
+  .h4 {
+    font-size: 1.266rem;
+  }
+  h5,
+  .h5 {
+    font-size: 1.125rem;
+  }
+  h6,
+  .h6 {
+    font-size: 1rem;
+  }
 }
 
 main {
@@ -39,25 +55,26 @@ footer a {
 }
 
 .header-wrapper {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .banner-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/kran.jpg);
-    background-position: center center, center calc(50% - 1rem);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 25rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    z-index: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/kran.jpg);
+  background-position: center center, center calc(50% - 1rem);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .banner-container .row {
@@ -67,20 +84,20 @@ footer a {
 .banner-container h1 {
   font-size: 2.2rem;
   opacity: 1;
-  text-shadow: 0 3px 4px rgba(0,0,0,.7);
+  text-shadow: 0 3px 4px rgba(0, 0, 0, 0.7);
   color: #fff;
 }
 
-@media  (max-width: 24em) {
+@media (max-width: 24em) {
   .banner-container .lead {
     display: none;
   }
 }
 
 .logo {
-  display: inline-block;
-  margin-top: .4rem;
-  margin-bottom: .5rem;
+  display: flex;
+  /* margin-top: 0.4rem; */
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 40em) {
@@ -129,7 +146,7 @@ footer a {
 }
 
 .button-icon {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .margin-top-1x {
@@ -162,7 +179,7 @@ footer a {
   }
 }
 
-.gallery-thumbs, 
+.gallery-thumbs,
 .gallery-thumbs-vertical {
   display: flex;
   flex-wrap: wrap;
@@ -170,12 +187,12 @@ footer a {
 }
 
 .gallery-thumbs a {
-  margin: .0 0 1rem;
+  margin: 0 0 1rem;
   flex-basis: 30.5%;
 }
 
 .gallery-thumbs-vertical a {
-  margin: .0 0 1rem;
+  margin: 0 0 1rem;
   flex-basis: 22%;
 }
 
@@ -187,7 +204,9 @@ footer a {
   max-width: 100%;
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed {
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -206,8 +225,88 @@ footer a {
 
 @media (min-width: 30em) {
   .call-to-action {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
   }
 }
 
+.navigation {
+  padding: 1rem 0;
+}
 
+.navigation li {
+  position: relative;
+}
+
+@media (max-width: 40em) {
+  body.no-scroll {
+    overflow: hidden;
+    position: relative;
+  }
+
+  main.nav-closed .navigation {
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out, visibility 0.5s ease-out;
+    visibility: hidden;
+  }
+
+  main.nav-open .navigation {
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  .navigation {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.5);
+    font-size: 0.9rem;
+    height: 100%;
+    max-width: 24rem;
+    min-width: 15rem;
+    overflow-y: scroll;
+    padding-top: 3rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: transform 0.5s ease-out, visibility 0.5s ease-out;
+    width: 85vw;
+  }
+
+  .navigation .card-section {
+    padding: 0;
+  }
+}
+
+.sub-nav-toggle {
+  padding: 0.7rem 2.5rem 0.7rem 1rem;
+  position: relative;
+  transition: 0.2s ease-out;
+  text-align: left;
+  width: 100%;
+  color: #2ba6cb;
+}
+
+.sub-nav-toggle::before {
+  background: url(/images/icons/chevron-down.svg) no-repeat center center #fff;
+  background-size: 1.5em;
+  content: "";
+  display: block;
+  height: 1.5em;
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  margin-top: -0.7em;
+  transition: 0.2s ease-out;
+  width: 1.5em;
+}
+
+.open .sub-nav-toggle::before {
+  transform: scaleY(-1);
+  transform-origin: 50% 50%;
+}
+
+.closed .menu {
+  display: none;
+}
+
+.menu.nested {
+  font-size: 90%;
+}

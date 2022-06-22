@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -18,11 +18,26 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const [isNavOpen, setIsNavOpen] = useState(false)
+  const navClass = isNavOpen ? "nav-open" : "nav-closed"
+
+  useEffect(() => {
+    if (isNavOpen) {
+      document.body.classList.add("no-scroll")
+    } else {
+      document.body.classList.remove("no-scroll")
+    }
+  }, [isNavOpen])
+
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header
+        siteTitle={data.site.siteMetadata?.title || `Title`}
+        isNavOpen={isNavOpen}
+        setIsNavOpen={setIsNavOpen}
+      />
 
-      <main>{children}</main>
+      <main className={navClass}>{children}</main>
 
       <Footer />
     </>
