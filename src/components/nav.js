@@ -39,6 +39,11 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/drain-cleaning-recommendations">
+                    Рекомендації по прочистці зливних каналізаційних труб
+                  </Link>
+                </li>
+                <li>
                   <Link to="/clogged-drain">Забита каналізація</Link>
                 </li>
                 <li>
