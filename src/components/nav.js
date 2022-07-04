@@ -14,7 +14,7 @@ const Nav = () => {
                 <strong>Головна</strong>
               </Link>
             </li>
-            <NavItem title="Аварійна служба сантехніки" open={false}>
+            <NavItem title="Аварійна служба" open={false}>
               <ul className="menu vertical nested">
                 <li>
                   <Link to="/emergency-plumbing-service">
@@ -44,10 +44,25 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/what-to-do-with-clogged-sewer">
+                    Що робити, якщо забита каналізація?
+                  </Link>
+                </li>
+                {/* <li>
                   <Link to="/clogged-drain">Забита каналізація</Link>
                 </li>
                 <li>
                   <Link to="/pipe-cleaning">Прочистка труб</Link>
+                </li> */}
+                <li>
+                  <Link to="/pipe-cleaning-in-lviv">
+                    Прочистка труб у Львові
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/professional-drain-cleaning">
+                    Професійна чистка каналізації
+                  </Link>
                 </li>
                 <li>
                   <Link to="/drain-cleaning-difficult-debris">
