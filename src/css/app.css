@@ -282,6 +282,7 @@ footer a {
   text-align: left;
   width: 100%;
   color: #2ba6cb;
+  cursor: pointer;
 }
 
 .sub-nav-toggle::before {

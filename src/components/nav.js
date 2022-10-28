@@ -115,7 +115,9 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/quality-pipe-cleaning">Якісна прочистка труб</Link>
+                  <Link to="/quality-drain-cleaning">
+                    Якісна прочистка каналізації у Львові
+                  </Link>
                 </li>
               </ul>
             </NavItem>
@@ -145,7 +147,13 @@ const Nav = () => {
                   <Link to="/installing-toilet">Встановлення унітаза</Link>
                 </li>
                 <li>
+                  <Link to="/choose-a-toilet">Вибираємо унітаз</Link>
+                </li>
+                <li>
                   <Link to="/bidet-toilet">Унітаз з функцією біде</Link>
+                </li>
+                <li>
+                  <Link to="/toilet-repair">Ремонт інсталяції унітазу</Link>
                 </li>
                 <li>
                   <Link to="/urinal-installation">Встановити пісуар</Link>
