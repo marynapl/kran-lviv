@@ -39,6 +39,9 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/sewer-search">Пошук каналізації</Link>
+                </li>
+                <li>
                   <Link to="/drain-cleaning-recommendations">
                     Рекомендації по прочистці зливних каналізаційних труб
                   </Link>
@@ -173,6 +176,16 @@ const Nav = () => {
                   <Link to="/bathtub-installation">Монтаж ванн</Link>
                 </li>
                 <li>
+                  <Link to="/bathtub-trim-moulding-installation">
+                    Облаштування бордюру для ванни
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/bathtub-ceramic-border">
+                    Керамічний бордюр для ванни
+                  </Link>
+                </li>
+                <li>
                   <Link to="/shower-panels-installation">
                     Встановити душові панелі
                   </Link>
@@ -223,6 +236,11 @@ const Nav = () => {
             </NavItem>
             <NavItem title="Oпалення" open={false}>
               <ul className="menu vertical nested">
+                <li>
+                  <Link to="/leakage-in-heating-system">
+                    Витік води у системі опалення
+                  </Link>
+                </li>
                 <li>
                   <Link to="/boiler-repair">Ремонт котлів</Link>
                 </li>
