@@ -42,6 +42,11 @@ const Nav = () => {
                   <Link to="/sewer-search">Пошук каналізації</Link>
                 </li>
                 <li>
+                  <Link to="/find-underground-sewer-pipe">
+                    Як знайти каналізаційну трубу під землею
+                  </Link>
+                </li>
+                <li>
                   <Link to="/drain-cleaning-recommendations">
                     Рекомендації по прочистці зливних каналізаційних труб
                   </Link>
@@ -202,7 +207,9 @@ const Nav = () => {
                   <Link to="/choose-a-hot-tub">Вибрати гідромасажну ванну</Link>
                 </li>
                 <li>
-                  <Link to="/sink-installation">Установка раковини</Link>
+                  <Link to="/sink-installation-in-bathroom">
+                    Установка раковини у ванній
+                  </Link>
                 </li>
                 <li>
                   <Link to="/mixer-installation">
@@ -230,6 +237,11 @@ const Nav = () => {
                 <li>
                   <Link to="/water-filter-installation">
                     Установка фільтра для води
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/eliminate-water-leak">
+                    Як усунути витік води у трубопроводі?
                   </Link>
                 </li>
               </ul>
