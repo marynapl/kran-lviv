@@ -56,6 +56,9 @@ const Nav = () => {
                     Що робити, якщо забита каналізація?
                   </Link>
                 </li>
+                <li>
+                  <Link to="/sewer-installation">Монтаж каналізації</Link>
+                </li>
                 {/* <li>
                   <Link to="/clogged-drain">Забита каналізація</Link>
                 </li>
@@ -110,6 +113,18 @@ const Nav = () => {
                 <li>
                   <Link to="/drain-cleaning-private-house">
                     Прочистка каналізації приватного будинку
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/drain-cleaning-in-house-chemical-and-hydrodymanic-methods">
+                    Прочистка каналізації будинку - хімічний та гідродинамічний
+                    способи
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/drain-cleaning-in-house-thermal-and-mechanical-methods">
+                    Прочистка каналізації будинку - термічний та механічний
+                    способи
                   </Link>
                 </li>
                 <li>
@@ -209,6 +224,21 @@ const Nav = () => {
                 <li>
                   <Link to="/sink-installation-in-bathroom">
                     Установка раковини у ванній
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/sink-installation-assembling-and-fixing-on-the-wall">
+                    Встановлення раковини: складання та кріплення на стіні
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/washing-machine-installation">
+                    Встановлення пралки у ванній
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/washing-machine-installation-under-sink">
+                    Встановити пральну машину під раковину
                   </Link>
                 </li>
                 <li>
