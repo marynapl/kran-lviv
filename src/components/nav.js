@@ -52,6 +52,11 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/drain-cleaning-reasons">
+                    Причини прочищення каналізаційних труб
+                  </Link>
+                </li>
+                <li>
                   <Link to="/what-to-do-with-clogged-sewer">
                     Що робити, якщо забита каналізація?
                   </Link>
@@ -73,6 +78,11 @@ const Nav = () => {
                 <li>
                   <Link to="/professional-drain-cleaning">
                     Професійна чистка каналізації
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/drain-cleaning-in-the-kitchen">
+                    Як пробити каналізаційну трубу на кухні
                   </Link>
                 </li>
                 <li>
@@ -232,6 +242,16 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/sink-installation-semipedestal-suspended">
+                    Монтаж раковини: на напівп'єдесталі, підвісної
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/sink-countertop-built-in">
+                    Накладні раковини та раковини що вбудовуються
+                  </Link>
+                </li>
+                <li>
                   <Link to="/washing-machine-installation">
                     Встановлення пралки у ванній
                   </Link>
@@ -272,6 +292,16 @@ const Nav = () => {
                 <li>
                   <Link to="/eliminate-water-leak">
                     Як усунути витік води у трубопроводі?
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/how-to-choose-drain-overflow">
+                    Як вибрати злив-перелив для ванни
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/how-to-choose-drain-overflow-automatic-system">
+                    Як вибрати злив-перелив для ванни: автоматичні системи
                   </Link>
                 </li>
               </ul>
