@@ -177,6 +177,15 @@ const Nav = () => {
                   <Link to="/call-plumber">Виклик сантехніка</Link>
                 </li>
                 <li>
+                  <Link to="/plumbing-work">Сантехнічні роботи у Львові</Link>
+                </li>
+                <li>
+                  <Link to="/plumber-in-lviv">Сантехнік у Львові</Link>
+                </li>
+                <li>
+                  <Link to="/plumber-lviv-sykhiv">Сантехнік Сихів Львів</Link>
+                </li>
+                <li>
                   <Link to="/installing-toilet">Встановлення унітаза</Link>
                 </li>
                 <li>
@@ -204,6 +213,11 @@ const Nav = () => {
                 </li>
                 <li>
                   <Link to="/bathtub-installation">Монтаж ванн</Link>
+                </li>
+                <li>
+                  <Link to="/how-to-choose-bathroom-faucet">
+                    Як вибрати змішувач для ванної
+                  </Link>
                 </li>
                 <li>
                   <Link to="/bathtub-trim-moulding-installation">
@@ -262,6 +276,9 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/siphon-operation">Принцип роботи сифона</Link>
+                </li>
+                <li>
                   <Link to="/mixer-installation">
                     Встановлення та заміна змішувача
                   </Link>
@@ -302,6 +319,11 @@ const Nav = () => {
                 <li>
                   <Link to="/how-to-choose-drain-overflow-automatic-system">
                     Як вибрати злив-перелив для ванни: автоматичні системи
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/plumbing-services-lviv">
+                    Сантехнічні послуги Львів
                   </Link>
                 </li>
               </ul>
