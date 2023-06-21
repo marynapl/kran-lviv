@@ -2,7 +2,7 @@ import * as React from "react"
 
 const Call = () => (
   <>
-    <a className="button white call-to-action" href="tel:+380502559896">
+    <a className="button white call-to-action" href="tel:+380981798393">
       <span className="button-icon show-for-medium">
         <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
           <path d="M0 0h24v24H0z" fill="none" />
@@ -10,7 +10,7 @@ const Call = () => (
         </svg>
       </span>
       <strong>
-        <span className="show-for-medium">+38 </span>(050) 255 98 96
+        <span className="show-for-medium">+38 </span>(098) 179 83 93
       </strong>
     </a>
   </>

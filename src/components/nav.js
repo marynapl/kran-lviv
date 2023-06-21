@@ -326,6 +326,11 @@ const Nav = () => {
                     Сантехнічні послуги Львів
                   </Link>
                 </li>
+                <li>
+                  <Link to="/water-pipe-plug">
+                    Заглушка для водопровідних труб
+                  </Link>
+                </li>
               </ul>
             </NavItem>
             <NavItem title="Oпалення" open={false}>
@@ -366,6 +371,16 @@ const Nav = () => {
                 <li>
                   <Link to="/radiator-replacement">
                     Заміна батарей і радіаторів опалення
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/bypass-in-the-heating-system">
+                    Байпас у системі опалення приватного будинку
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/mayevsky-faucet-application">
+                    Сфери застосування кранів Маєвського
                   </Link>
                 </li>
               </ul>
