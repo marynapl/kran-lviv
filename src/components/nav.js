@@ -279,6 +279,11 @@ const Nav = () => {
                   <Link to="/siphon-operation">Принцип роботи сифона</Link>
                 </li>
                 <li>
+                  <Link to="/syphon-installation-for-genoa-cup">
+                    Сифон для чаші Генуя – види, монтаж
+                  </Link>
+                </li>
+                <li>
                   <Link to="/mixer-installation">
                     Встановлення та заміна змішувача
                   </Link>
@@ -329,6 +334,16 @@ const Nav = () => {
                 <li>
                   <Link to="/water-pipe-plug">
                     Заглушка для водопровідних труб
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/plumber-lviv-lychakivska">
+                    Сантехнік на Личаківській
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/plumbing-installation">
+                    Демонтаж, ремонт, монтаж сантехніки
                   </Link>
                 </li>
               </ul>
