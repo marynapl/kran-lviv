@@ -76,6 +76,11 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/sewer-ventilation">
+                    Навіщо потрібна вентиляція стояка каналізації
+                  </Link>
+                </li>
+                <li>
                   <Link to="/professional-drain-cleaning">
                     Професійна чистка каналізації
                   </Link>
@@ -180,12 +185,6 @@ const Nav = () => {
                   <Link to="/plumbing-work">Сантехнічні роботи у Львові</Link>
                 </li>
                 <li>
-                  <Link to="/plumber-in-lviv">Сантехнік у Львові</Link>
-                </li>
-                <li>
-                  <Link to="/plumber-lviv-sykhiv">Сантехнік Сихів Львів</Link>
-                </li>
-                <li>
                   <Link to="/installing-toilet">Встановлення унітаза</Link>
                 </li>
                 <li>
@@ -196,6 +195,11 @@ const Nav = () => {
                 </li>
                 <li>
                   <Link to="/toilet-repair">Ремонт інсталяції унітазу</Link>
+                </li>
+                <li>
+                  <Link to="/repair-of-toilet-tank-drain-system">
+                    Ремонт зливної системи бачка унітаза
+                  </Link>
                 </li>
                 <li>
                   <Link to="/urinal-installation">Встановити пісуар</Link>
@@ -342,9 +346,23 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/plumber-volodymyra-velykoho-street">
+                    Сантехнік на Володимира Великого
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/plumber-lysynychi">Сантехнік Лисиничі</Link>
+                </li>
+                <li>
+                  <Link to="/plumber-lviv-sykhiv">Сантехнік Сихів Львів</Link>
+                </li>
+                <li>
                   <Link to="/plumbing-installation">
                     Демонтаж, ремонт, монтаж сантехніки
                   </Link>
+                </li>
+                <li>
+                  <Link to="/plumber-in-lviv">Сантехнік у Львові</Link>
                 </li>
               </ul>
             </NavItem>
@@ -371,6 +389,11 @@ const Nav = () => {
                 <li>
                   <Link to="/heating-installation-apartment">
                     Монтаж опалення квартири
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/how-to-choose-efficient-heating-boiler">
+                    Як вибрати ефективний котел опалення
                   </Link>
                 </li>
                 <li>
